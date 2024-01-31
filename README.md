@@ -1,4 +1,4 @@
-# PowerBI & Healthcare Data Visualization Projects Repository
+# PowerBI & Tableau Data Visualization Projects Repository
 
 ## Overview
 
