@@ -1,23 +1,28 @@
-# PowerBI & Tableau Data Visualization Projects Repository
+# Yelp Dataset Analysis and Visualization Project
 
 ## Overview
 
-Welcome to my Data Visualization Projects Repository! This repository serves as a central hub for my visualization projects, showcasing my skills in Power BI and Tableau. The aim is to provide insightful, interactive, and visually appealing representations of various datasets to support decision-making processes.
+This repository contains a Tableau visualization project analyzing data sourced from Yelp's open dataset. The analysis aims to uncover trends in customer reviews and business ratings for restaurants in Vancouver. The repository includes both the Tableau workbook (`.twb` file) and a PDF preview of the visualizations for easy reference.
 
-## Projects Included
+---
 
-### Power BI Projects
+## Data Source
 
-- **Analyzing Healthcare Data in Power BI**: This is a case study course from DataCamp(https://app.datacamp.com/learn/courses/case-study-analyzing-healthcare-data-in-power-bi). It utilize Power BI Dashboard to better manage the process in healthcare institutes in North America.
+The dataset used in this project is provided by Yelp as part of their public dataset initiative. However, due to the size of the dataset, it is not included in this repository.  
 
-### Tableau Projects
+- **Dataset Name**: `yelp_dataset_vancouver-business.json`, `yelp_dataset_vancouver-review.json`, `yelp_dataset_vancouver-user.json`
+- **Access Requirements**: The dataset is publicly available, but users must agree to Yelp's [Dataset License Agreement](https://www.yelp.com/dataset/terms) before downloading.
+- **Download Link**: [https://www.yelp.com/dataset](https://www.yelp.com/dataset)
 
-- **Yelp_Reviews_Dashboard**: This is a coursework for the Master of Business Analytics Program. It contains a Dashboard that presents various data and metrics related to restaurants in an interactive and visually appealing manner. It also contains 2 dynamic storydborads that detects impacts brought by Covid-19 and how to increase users' influence respectively.
+### Instructions for Data Setup
+1. Download the dataset from the link above.
+2. Extract the files and save them in a directory of your choice.
+3. Ensure that the dataset files are accessible for Tableau's data source connection.
 
-  
-## Tools Used
+---
 
-- [Power BI](https://powerbi.microsoft.com): A business analytics service by Microsoft, providing interactive visualizations and business intelligence capabilities.
-- [Tableau](https://www.tableau.com): A powerful data visualization tool that enables you to create interactive and shareable dashboards.
+## Repository Contents
 
-
+This repository includes the following files:  
+1. **`Yelp_Reviews_Dashboard.twb`**: The Tableau workbook containing all the visualizations and data transformations.  
+2. **`Yelp_Reviews_Dashboard_preview.pdf`**: A PDF export of the dashboards for users who cannot open Tableau files.  
